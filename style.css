@@ -1,0 +1,175 @@
+.foto {
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 9px 3px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 12px;
+    margin-top: 0;
+    margin-right: 35px;
+}
+
+.inst {
+    width: 20px;
+    border-radius: 50%;
+}
+.telega {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.vk {
+    width: 22px;
+    border-radius: 50%  ;
+}
+
+body {
+background-color: #f0f8ff;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.styles {
+    padding: 0px 0px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.styles h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.styles a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.styles a:active {
+    color: #000000
+}
+.styles a:hover {
+    text-decoration: line-through;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.bg-blu {
+    background: #00ffff;
+}
+
+.bg-green {
+    background: #adff2f;
+}
+.bg-honey {
+    background: #ff69d4;
+}
+
+.info { 
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.info a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: #808080;
+}
+
+.info a:visited {
+    color: #808080;
+}
+.info p {
+    margin: 0;
+    font-style: italic;
+    text-transform: none;
+    text-decoration: underline;
+    color: #808080;
+    font-weight: bold;
+    font-size: 14px;
+}
+.info h2 {
+    margin: 8px 0;
+}
+
+.new {
+    padding: 0 0px;
+}
+
+.new li {
+    color: #a9a9a9;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.work {
+    width: 100%;
+}
+.work td {
+    padding-bottom: 5px;
+}
+.work td:nth-child(1) {
+    border-right: 1px solid #000000;
+}
+
+.call h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000000;
+    padding: 15px 0px 10px;
+    background: transparent;
+    outline: 0;
+    font-family: inherit;
+}
+
+.pluse {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.pluse > .form-group {
+    width: 50%;
+    /* margin-right: 20px; */
+}
+
+/* .pluse > .form-group:first-child {
+    margin-right: 20px;
+} */
+
+.form-group:nth-child(2) {
+    margin-bottom: 15px;
+}
+ .form-group:first-child {
+     margin-right: 20px;
+ }
+
+ .class {
+     display: block;
+     box-sizing: border-box;
+     padding: 0;
+     width: 100%;
+     color: #808080;
+     font-family: inherit;
+ }
+
+ .flex {
+     display: flex;
+ }
